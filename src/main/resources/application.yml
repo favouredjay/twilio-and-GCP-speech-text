@@ -1,0 +1,8 @@
+spring:
+  application:
+  name: SpeechToTextWithTwilioApplication
+
+twilio:
+  account_sid: ACd675991b37d03844befa5110af0ff2d0
+  auth_token: fbe2d59214c84d2801892e630a308ea5
+  from_number: +16592663412
