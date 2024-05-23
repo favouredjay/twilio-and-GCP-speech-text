@@ -19,7 +19,7 @@ public class TranscribeService {
         byte[] content = fileName.getBytes();
 
         GoogleCredentials credentials = GoogleCredentials.fromStream(
-                new FileInputStream("./src/speechtotextdemo-422508-7a345d2c221c.json"));
+                new FileInputStream("path to google credentials"));
 
         SpeechSettings speechSettings =
                 SpeechSettings.newBuilder()
